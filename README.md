@@ -1,11 +1,11 @@
 # Digital Assistant Service
 
 ## Challenge Summary
-This project implements a simple interview-style REST API where users can:
+This project implements a simple REST API where users can:
 - Define a digital assistant by `name` and fixed `response`.
 - Send a message to an assistant and receive the assistant's fixed response.
 
-Storage is in-memory only (no database), using `ConcurrentHashMap`.
+Storage is in-memory only , using `ConcurrentHashMap`.
 
 ## Tech Stack
 - Java 21
